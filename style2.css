@@ -81,14 +81,15 @@ tr:nth-child(odd) {
 }
 
 /* Aligning the AI Video section to the left */
-.left-content {
+.left-content  {
     text-align: left;
     width: 100%;
     margin-top: 20px;
 }
 
-.left-content h2 {
+.left-content  h2 {
     margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 /* Numbered List */
@@ -104,6 +105,96 @@ tr:nth-child(odd) {
     margin-top: 10px;
     font-weight: bold;
 }
+
+.regis{
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.regis ol {
+    list-style-type:none;
+    padding-left: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+.regis ol li {
+    list-style-type:none;
+    padding-left: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+.regis ol li a {
+
+    text-decoration: underline;
+}
+.regis h3{
+    margin-bottom: 10px;
+    margin-left: 4%;
+}
+.regis {
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* Gradient Animation */
+
+
+
+
+@keyframes gradientChangeMobile {
+    0% {
+        background: linear-gradient(45deg, #c430d7, #df4881);
+    }
+
+    100% {
+        background: linear-gradient(45deg, #305cd7, #48c6df);
+    }
+}
+
+.lets_btn {
+    display: inline-block;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    background:linear-gradient(45deg, #c430d7, #df4881);
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    transition: all 0.3s ease-in-out; box-shadow 0.2s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    animation: gradientChange 4s infinite alternate;
+    animation-duration: 2s;
+    animation-iteration-count: 30;
+}
+
+@keyframes gradientChange {
+    from {
+        background: linear-gradient(45deg, #c430d7, #df4881);
+    }
+    to {
+        background: linear-gradient(45deg, #305cd7, #48c6df);
+    }
+}
+
+/* Hover effect */
+.lets_btn:hover {
+    transform: scale(1.1);
+    background: linear-gradient(45deg, #305cd7, #48c6df);
+    box-shadow: 0 15px 25px rgba(48, 92, 215, 0.5);
+}
+
+/* Click effect */
+.lets_btn:active {
+    transform: scale(0.1);
+    box-shadow: 0 5px 10px rgba(48, 92, 215, 0.3);
+}
+  
 
 /* Responsive Design */
 @media (max-width: 1024px) {
@@ -170,8 +261,9 @@ tr:nth-child(odd) {
     }
 
     .lets_btn {
-        padding: 12px 35px;
+        padding: 15px 40px;
         font-size: 16px;
+        animation: gradientChangeMobile 4s infinite alternate;
     }
 }
 
@@ -215,9 +307,11 @@ tr:nth-child(odd) {
         font-size: 14px;
     }
 
+ 
     .lets_btn {
-        padding: 10px 30px;
+        padding: 12px 35px;
         font-size: 14px;
+        animation: gradientChangeMobile 4s infinite alternate;
     }
 
     .feature-img {
