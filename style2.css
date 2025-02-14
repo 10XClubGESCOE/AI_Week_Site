@@ -239,18 +239,17 @@ tr:nth-child(odd) {
     .logo {
         width: 100px;
         position: relative;
-        margin-left: 0; /* Align to the left */
-        margin-bottom: 0;
-        width: 80px;
-        left: 2%;
+        width: 90px;
+        left: -4%;
+        top: -15px;
+        
     }
 
     .club-name {
-        font-size: 18px;
+        font-size: 19px;
         position: relative;
-        margin-left: 10px; /* Keep a small gap between logo and name */
-        margin-bottom: 0;
-        left: 6%;
+        left: 0%;
+        top: -12px;
     }
 
 
@@ -291,18 +290,19 @@ tr:nth-child(odd) {
     }
 
     .logo {
-        width: 80px;
+        width: 90px;
         position: relative;
-        top: 0;
-        left: 10%;
+        top: -16px;
+        left: 1%;
         margin-bottom: 10px;
+        
     }
 
     .club-name {
-        font-size: 16px;
+        font-size: 19px;
         position: relative;
-        top: 0;
-        left: 10%;
+        top: -15px;
+        left: 2%;
         margin-bottom: 10px;
     }
 
