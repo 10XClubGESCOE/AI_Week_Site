@@ -350,6 +350,8 @@ tr:nth-child(odd) {
 
 .WeekDetails
 {
+    align-items: flex-start;
+    text-align: left;
     padding-top: 4%;
     padding-bottom: 4%;
     display: flex;
