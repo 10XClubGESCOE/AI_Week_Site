@@ -87,7 +87,7 @@ nav {
     width: 700px; /* Increased size */
     
 }
-..feature-img.anime{
+.feature-img.anime{
    animation-delay: 1.5s;
 }
 
@@ -102,15 +102,7 @@ nav {
     opacity: 1;
     transform: translateY(0);
 }
-.club-name {
-    font-size: 22px; /* Adjust size */
-    font-weight: bold;
-    color: #222; /* Dark color */
-    position: absolute;
-    top: 60px; /* Aligns with the logo */
-    left: 12%; /* Moves right of the logo */
 
-}
 /* Responsive Design */
 @media (max-width: 1024px) {
     .container {
@@ -122,12 +114,6 @@ nav {
         top: 10%;
 
      }
-    .club-name {
-        font-size: 16px;
-        top: 40px;
-        left: 25%;
-        padding: 0px 0px 0px 25px;
-    }
     .content {
         margin-left: 0;
     }
@@ -141,6 +127,7 @@ nav {
     .lets_btn {
         padding: 15px 40px;
     }
+    
 }
 
 @media (max-width: 768px) {
@@ -153,14 +140,6 @@ nav {
         left: 5%;
         top: 10px;
     }
-
-    .club-name {
-        font-size: 18px;
-        top: 50px;
-        left: 20%;
-        padding: 0px 0px 0px 25px;
-    }
-
     .content h1 {
         font-size: 50px;
     }
@@ -185,14 +164,6 @@ nav {
         left: 5%;
         top: 5px;
     }
-
-    .club-name {
-        font-size: 16px;
-        top: 40px;
-        left: 25%;
-        padding: 0px 0px 0px 25px;
-    }
-
     .container {
         flex-direction: column-reverse;
         text-align: center;
