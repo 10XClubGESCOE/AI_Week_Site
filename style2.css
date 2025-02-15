@@ -52,6 +52,7 @@ table {
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-right: 20px;
+    padding-top: 5%;
 }
 
 /* Table Header (Day & Activities) */
@@ -136,7 +137,6 @@ tr:nth-child(odd) {
 .regis h5{
     padding-top: 10%;
 }
-
 
 /* Gradient Animation */
 
