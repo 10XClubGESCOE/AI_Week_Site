@@ -342,15 +342,20 @@ tr:nth-child(odd) {
     }  
 }
 
+.WeekDetails ul
+{
+    padding-left: 5%;
+    list-style-position: inside;
+}
+
 .WeekDetails
 {
     padding-top: 4%;
     padding-bottom: 4%;
-}
-
-.WeekDetails ul
-{
-    padding-left: 10%;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .WeekDetails h3
