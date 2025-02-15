@@ -133,6 +133,10 @@ tr:nth-child(odd) {
     margin-bottom: 10px;
     margin-left: 4%;
 }
+.regis h5{
+    padding-top: 3px;
+}
+
 
 /* Gradient Animation */
 
