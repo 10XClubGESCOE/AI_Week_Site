@@ -220,6 +220,7 @@ tr:nth-child(odd) {
         text-align: center;
         width: 100%;
     }
+   
 }
 
 
@@ -282,6 +283,8 @@ tr:nth-child(odd) {
         margin-top: 10px;
     }
 
+   
+
 }
 
 @media (max-width: 480px) {
@@ -305,7 +308,6 @@ tr:nth-child(odd) {
         left: 2%;
         margin-bottom: 10px;
     }
-
 
     .container {
         flex-direction: column;
@@ -337,5 +339,21 @@ tr:nth-child(odd) {
         width: 70%;
         max-width: 400px;
         margin-top: 10px;
-    }
-} 
+    }  
+}
+
+.WeekDetails
+{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.WeekDetails ul
+{
+    padding-left: 10%;
+}
+
+.WeekDetails h3
+{
+    padding-bottom: 3%;
+}
