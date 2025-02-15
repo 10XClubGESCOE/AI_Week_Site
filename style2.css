@@ -10,23 +10,21 @@
     padding: 30px 5%;
 }
 
-/* Navbar */
 nav {
- 
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 35px 10%;
-    gap: 10px;
 }
 
+/* Logo */
 .logo {
     width: 120px;
-    position:static;
+    position: absolute;
     top: 20px;
     left: 3%; /* Moves it further left */
 }
+
 
 .club-name {
     font-size: 22px;
@@ -210,10 +208,6 @@ tr:nth-child(odd) {
         max-width: 500px;
         margin-top: 20px;
     }
-
-    .lets_btn {
-        padding: 15px 40px;
-    }
     .regis{
         flex-direction: column;
         align-items: center;
@@ -236,23 +230,11 @@ tr:nth-child(odd) {
         text-align: left;
         padding: 20px 5%;
     }
-
     .logo {
         width: 100px;
-        position: relative;
-        width: 90px;
-        left: -4%;
-        top: -15px;
-        
+        left: 5%;
+        top: 10px;
     }
-
-    .club-name {
-        font-size: 19px;
-        position: relative;
-        left: 0%;
-        top: -12px;
-    }
-
 
     .container {
         flex-direction: column;
@@ -291,24 +273,11 @@ tr:nth-child(odd) {
     .hero {
         padding: 15px 3%;
     }
-
     .logo {
-        width: 90px;
-        position: relative;
-        top: -16px;
-        left: 1%;
-        margin-bottom: 10px;
-        
+        width: 80px;
+        left: 5%;
+        top: 5px;
     }
-
-    .club-name {
-        font-size: 19px;
-        position: relative;
-        top: -15px;
-        left: 2%;
-        margin-bottom: 10px;
-    }
-
     .container {
         flex-direction: column;
         align-items: center;
