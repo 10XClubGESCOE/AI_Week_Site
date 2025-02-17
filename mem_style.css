@@ -158,16 +158,10 @@ a:visited {
     }
 
   
-    .buttons {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    /* MOBILE-FRIENDLY BUTTON */
     .button {
         font-size: 18px;
         padding: 12px 16px;
-        width: 100%; /* Makes it full width on smaller screens */
+        width: auto; /* Prevents full width button */
         text-align: center;
     }
 }
