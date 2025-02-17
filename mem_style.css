@@ -47,26 +47,31 @@ body {
     font-style: italic;
 }
 
-.buttons {
-    display: flex;
-    gap: 30px;
-}
 
 .button {
-    color: #FFF;
+    color: white; /* White text */
     font-size: 20px;
     cursor: pointer;
+    background-color: black; /* Black button */
     margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
 }
-.button :hover{
-    background-color: black;
-    color: white;
-}
-a{
+
+.button a {
+    color: white; /* Ensures the text inside the link is white */
     text-decoration: none;
-    color: black;
-    padding: 15px;
 }
+
+/* Scaling effect when hovered */
+.button:hover {
+    transform: scale(1.05);
+}
+
+
+
 a:visited {
     text-decoration: none;
     color: black;
@@ -162,6 +167,28 @@ a:visited {
         padding: 8px 0;
     }
 }
+
+/* Feature Image (Increased Size) */
+.feature-img {
+    width: 700px; /* Increased size */
+    
+}
+.feature-img.anime{
+   animation-delay: 1.5s;
+}
+
+/* 🔥 Animation */
+.anime {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.anime.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 /* .buttons {
     display: flex;
